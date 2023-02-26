@@ -1,0 +1,2 @@
+var o=Object.defineProperty;var u=(t,n)=>o(t,"name",{value:n,configurable:!0});import{r}from"./jsx-runtime.3400edff.js";import{u as c}from"./useEnhancedEffect.3086e73d.js";function s(t,n){typeof t=="function"?t(n):t&&(t.current=n)}u(s,"setRef");function f(t){const n=r.exports.useRef(t);return c(()=>{n.current=t}),r.exports.useCallback((...e)=>(0,n.current)(...e),[])}u(f,"useEventCallback");function p(t,n){return r.exports.useMemo(()=>t==null&&n==null?null:e=>{s(t,e),s(n,e)},[t,n])}u(p,"useForkRef");export{f as a,s,p as u};
+//# sourceMappingURL=useForkRef.6d44acb1.js.map
