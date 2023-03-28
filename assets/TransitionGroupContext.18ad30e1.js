@@ -1,2 +1,0 @@
-var c=Object.defineProperty;var e=(t,o)=>c(t,"name",{value:o,configurable:!0});import{R as _}from"./jsx-runtime.1b7e4180.js";function r(t,o){return r=Object.setPrototypeOf?Object.setPrototypeOf.bind():e(function(n,p){return n.__proto__=p,n},"_setPrototypeOf"),r(t,o)}e(r,"_setPrototypeOf");function O(t,o){t.prototype=Object.create(o.prototype),t.prototype.constructor=t,r(t,o)}e(O,"_inheritsLoose");const u=_.createContext(null);export{u as T,O as _};
-//# sourceMappingURL=TransitionGroupContext.18ad30e1.js.map
