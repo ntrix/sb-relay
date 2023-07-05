@@ -1,0 +1,2 @@
+var a=Object.defineProperty;var i=(e,t)=>a(e,"name",{value:t,configurable:!0});import{r as c}from"./jsx-runtime.03a443f3.js";function l(e,t=166){let o;function r(...n){const u=i(()=>{e.apply(this,n)},"later");clearTimeout(o),o=setTimeout(u,t)}return i(r,"debounced"),r.clear=()=>{clearTimeout(o)},r}i(l,"debounce");function d(e,t){return c.exports.isValidElement(e)&&t.indexOf(e.type.muiName)!==-1}i(d,"isMuiElement");export{l as d,d as i};
+//# sourceMappingURL=isMuiElement.c08b8eb4.js.map
