@@ -1,2 +1,0 @@
-var a=Object.defineProperty;var l=(e,t)=>a(e,"name",{value:t,configurable:!0});import{_ as f,f as r}from"./useThemeProps.8b6b0273.js";import{j as n}from"./jsx-runtime.3284e85a.js";import{G as u}from"./emotion-react.browser.esm.c225e382.js";function i(e){return e==null||Object.keys(e).length===0}l(i,"isEmpty");function m(e){const{styles:t,defaultTheme:o={}}=e;return n(u,{styles:typeof t=="function"?s=>t(i(s)?o:s):t})}l(m,"GlobalStyles$1");function b(e){return n(m,f({},e,{defaultTheme:r}))}l(b,"GlobalStyles");export{b as G};
-//# sourceMappingURL=GlobalStyles.b6eb78c2.js.map
