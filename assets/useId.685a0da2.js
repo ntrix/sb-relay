@@ -1,0 +1,2 @@
+var l=Object.defineProperty;var u=(t,e)=>l(t,"name",{value:e,configurable:!0});import{r as n,a as f}from"./index.dc0abbdb.js";let s=0;function r(t){const[e,o]=n.exports.useState(t),c=t||e;return n.exports.useEffect(()=>{e==null&&(s+=1,o(`mui-${s}`))},[e]),c}u(r,"useGlobalId");const a=f["useId".toString()];function m(t){if(a!==void 0){const e=a();return t!=null?t:e}return r(t)}u(m,"useId");export{m as u};
+//# sourceMappingURL=useId.685a0da2.js.map
