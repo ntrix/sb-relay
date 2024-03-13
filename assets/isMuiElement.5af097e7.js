@@ -1,0 +1,2 @@
+var o=Object.defineProperty;var l=(t,i)=>o(t,"name",{value:i,configurable:!0});import{r}from"./index.a4b8bac3.js";function p(t,i=166){let u;function e(...a){const n=l(()=>{t.apply(this,a)},"later");clearTimeout(u),u=setTimeout(n,i)}return l(e,"debounced"),e.clear=()=>{clearTimeout(u)},e}l(p,"debounce");function s(t,i){var u,e;return r.exports.isValidElement(t)&&i.indexOf((u=t.type.muiName)!=null?u:(e=t.type)==null||(e=e._payload)==null||(e=e.value)==null?void 0:e.muiName)!==-1}l(s,"isMuiElement");export{p as d,s as i};
+//# sourceMappingURL=isMuiElement.5af097e7.js.map
